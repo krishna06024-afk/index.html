@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Girlfriend's Day — Celebrate</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="container">
+        <img src="assets/heart.svg" alt="heart" class="logo" />
+        <h1>Happy Girlfriend's Day</h1>
+        <p class="lead">Create a personalized card in seconds. Mobile friendly & animated.</p>
+
+        <form id="cardForm" class="card-form" autocomplete="off">
+          <input id="fromName" name="from" type="text" placeholder="Your name" required>
+          <input id="toName" name="to" type="text" placeholder="Her name" required>
+          <button id="createBtn" type="submit">Create Card</button>
+        </form>
+
+        <div class="actions">
+          <a id="downloadLink" class="btn hidden">Download Card</a>
+          <button id="previewBtn" class="btn ghost hidden">Open Preview</button>
+        </div>
+
+        <div class="hearts" aria-hidden="true">
+          <img src="assets/heart.svg" class="heart h1" />
+          <img src="assets/heart.svg" class="heart h2" />
+          <img src="assets/heart.svg" class="heart h3" />
+          <img src="assets/heart.svg" class="heart h4" />
+          <img src="assets/heart.svg" class="heart h5" />
+        </div>
+
+        <p class="footer-note">Made with ❤️ — static site for GitHub Pages</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
